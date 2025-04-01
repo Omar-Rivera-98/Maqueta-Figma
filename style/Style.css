@@ -14,7 +14,7 @@
   }
   
 header{
-  background-color: rgb(0, 255, 34);
+  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
   border-width: 10px;
   border-color: black;
 }
@@ -25,7 +25,7 @@ header{
 }
 
 body{
-    background:linear-gradient(rgb(0, 243, 0),white);
+  background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
@@ -182,7 +182,7 @@ input{
   margin-top: 0px;
   font-family: Kenia Regular;
   border-color: black;
-  background: linear-gradient(to right,rgb(0, 255, 64),rgb(255, 255, 255));
+  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
 }
 
 .recomended img{
@@ -216,7 +216,7 @@ input{
   margin-top: 0px;
   font-family: Kenia Regular;
   border-color: black;
-  background: linear-gradient(to right,rgb(0, 255, 64),rgb(255, 255, 255));
+  background: linear-gradient(to right,rgb(0, 247, 255),rgb(255, 255, 255));
 }
 
 .recomended1 img{
@@ -224,7 +224,7 @@ input{
 }
 
 .logo-login{
-  background: linear-gradient(to left,white,rgb(0, 255, 0));
+  background: linear-gradient(to left,white,rgb(110, 250, 255));
   
 }
 
@@ -306,4 +306,11 @@ input{
 }
 .easteregg a{
   background-color: gray;
+}
+
+.fondaso{
+  background: linear-gradient(to left,white,rgb(110, 250, 255));
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
 }
