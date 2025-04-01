@@ -23,9 +23,12 @@ header{
   display: flex;
   justify-content: flex-start;
 }
-
+hr{
+  height: 5px;
+  background-color: black;
+}
 body{
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
@@ -179,14 +182,101 @@ input{
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
   font-family: Kenia Regular;
   border-color: black;
   background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
 }
 
+.home{
+  display: flex;
+  float: left;
+}
+.home img{
+  width: 70px;
+}
+
 .recomended img{
   width: 400px;
+}
+.contactenos{
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+}
+
+.shpp{
+  background-color: black;
+  padding: 40px;
+  color: white;
+  border-radius: 20px;
+  font-family: Actor Regular;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  margin-top: -400px;
+  margin-left: 1000px;
+}
+.shpp2{
+  background-color: black;
+  padding: 40px;
+  color: white;
+  border-radius: 20px;
+  font-family: Actor Regular;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  margin-top: -400px;
+  margin-left: 1000px;
+}
+.shpp input{
+  margin: 10px;
+}
+.shpp a{
+  text-decoration: none;
+  color: white;
+  font-family: Kenia Regular;
+  text-align: center;
+  font-size: 40px;
+}
+.shpp a:hover{
+  margin-top: 10px;
+  border-radius: 20px;
+  transform: scale(1.25);
+  background-color: white;
+  color: black;
+}
+.shpp2 a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-family: Kenia Regular;
+  text-align: center;
+  font-size: 40px;
+}
+.shpp2 a:hover{
+  margin-top: 10px;
+  border-radius: 20px;
+  transform: scale(1.25);
+  background-color: white;
+  color: black;
+}
+.shpp img{
+  width: 300px;
+  margin-left: 40px;
+}
+.contactenos img{
+  border-radius: 20px;
+  width: 600px;
 }
 
 .center1{
@@ -216,7 +306,7 @@ input{
   margin-top: 0px;
   font-family: Kenia Regular;
   border-color: black;
-  background: linear-gradient(to right,rgb(0, 247, 255),rgb(255, 255, 255));
+  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
 }
 
 .recomended1 img{
@@ -224,7 +314,7 @@ input{
 }
 
 .logo-login{
-  background: linear-gradient(to left,white,rgb(110, 250, 255));
+  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
   
 }
 
@@ -313,4 +403,15 @@ input{
   background-repeat: no-repeat;
   height: 100%;
   background-attachment: fixed;
+}
+
+footer{
+  display: flex;
+  font-family: Actor Regular;
+  align-items:flex-end;
+  justify-content: center;
+  background: white;
+  color: black;
+  margin-top: 100px;
+  text-align: center;
 }
