@@ -14,7 +14,6 @@
   }
   
 header{
-  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
   border-width: 10px;
   border-color: black;
 }
@@ -28,7 +27,7 @@ hr{
   background-color: black;
 }
 body{
-  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
+    background: radial-gradient(white,rgb(135, 255, 161));
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
@@ -186,7 +185,6 @@ input{
   padding: 0px;
   font-family: Kenia Regular;
   border-color: black;
-  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
 }
 
 .home{
@@ -197,14 +195,14 @@ input{
   width: 70px;
 }
 
+.home:hover{
+  transform: scale(1.25);
+}
+
 .recomended img{
   width: 400px;
 }
-.contactenos{
-  display: flex;
-  align-items: center;
-  justify-content: first baseline;
-}
+
 
 .shpp{
   background-color: black;
@@ -219,7 +217,7 @@ input{
   text-align: center;
   align-items: center;
 
-  margin-top: -400px;
+  margin-top: -500px;
   margin-left: 1000px;
 }
 .shpp2{
@@ -238,7 +236,63 @@ input{
   margin-top: -400px;
   margin-left: 1000px;
 }
-.shpp input{
+.shpp3{
+  background-color: black;
+  padding: 40px;
+  color: white;
+  border-radius: 20px;
+  font-family: Actor Regular;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.shpp3 a{
+  margin: 30px;
+}
+.shpp3 h1{
+  margin: 30px;
+  text-align:start;
+}
+
+.shppglobal3{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.shpp32{
+  display: flex;
+  justify-content: center;
+}
+.shpp3 input{
+  margin: 10px;
+}
+.shpp3 a{
+  text-decoration: none;
+  color: white;
+  font-family: Kenia Regular;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.product1 h1{
+  font-family: Kenia Regular;
+  font-size: 30px;
+}
+.shpp3 a:hover{
+  margin-top: 30px;
+  border-radius: 20px;
+  transform: scale(1.25);
+  background-color: white;
+  color: black;
+}
+
+.shpp3 input{
   margin: 10px;
 }
 .shpp a{
@@ -274,9 +328,32 @@ input{
   width: 300px;
   margin-left: 40px;
 }
-.contactenos img{
-  border-radius: 20px;
-  width: 600px;
+
+.shpp3 img{
+  width: 300px;
+  margin-left: 37px;
+  margin-top: 50px;
+}
+
+.parraforandom{
+  background-color: white;
+  width: 560px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.parraforandom h2{
+  font-family: Kenia Regular;
+  font-size: 40px;
+  text-align: center;
+}
+
+.parraforandom p{
+  font-family: Kenia Regular;
+  font-size: 40px;
+  text-align: center;
 }
 
 .center1{
@@ -289,6 +366,7 @@ input{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .product1 img{
@@ -306,16 +384,10 @@ input{
   margin-top: 0px;
   font-family: Kenia Regular;
   border-color: black;
-  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
 }
 
 .recomended1 img{
   width: 300px;
-}
-
-.logo-login{
-  background: linear-gradient(to right,rgb(124, 235, 255),rgb(255, 255, 255));
-  
 }
 
 .logo-login {
@@ -399,10 +471,70 @@ input{
 }
 
 .fondaso{
-  background: linear-gradient(to left,white,rgb(110, 250, 255));
+  background: radial-gradient(white,rgb(135, 255, 161));
   background-repeat: no-repeat;
   height: 100%;
   background-attachment: fixed;
+}
+
+.contactenos{
+  background-color: white;
+  display: flex;
+  width: 600px;
+  height: 550px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contactenos2{
+  background-color: white;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Kenia Regular;
+  font-size: 40px;
+  border-radius: 50px;
+}
+
+
+.displayer{
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-contact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.contactenos-sv{
+  font-family:  Actor Regular;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactenos-sv img{
+  width: 50px;
+}
+
+.contactenos-eu{
+  font-family:  Actor Regular;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactenos-eu img{
+  width: 50px;
 }
 
 footer{
@@ -414,4 +546,5 @@ footer{
   color: black;
   margin-top: 100px;
   text-align: center;
+  padding: 40px;
 }
