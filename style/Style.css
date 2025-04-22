@@ -138,6 +138,11 @@ body{
     font-size: 30px;
    }
 
+    input text{
+      size: 30;
+    }
+
+
    .User_icon img{
     width: 50px;
     margin: 10px;
