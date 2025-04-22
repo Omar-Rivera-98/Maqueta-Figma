@@ -12,9 +12,16 @@
     font-style: normal;
     font-weight: normal;
   }
-  @media (min-width: 1280px){
-    
+  input text{
+    size: 70;
   }
+  body{
+    background: radial-gradient(white,rgb(135, 255, 161));
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
   @media (min-width: 750px) {
     header{
   border-width: 10px;
@@ -29,13 +36,7 @@ hr{
   height: 5px;
   background-color: black;
 }
-body{
-    background: radial-gradient(white,rgb(135, 255, 161));
-    background-repeat: no-repeat;
-    height: 100%;
-    margin: 0;
-    background-attachment: fixed;
-}
+
 
 .menu{
     padding: 0px;
