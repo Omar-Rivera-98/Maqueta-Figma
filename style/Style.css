@@ -12,8 +12,8 @@
     font-style: normal;
     font-weight: normal;
   }
-  
-header{
+  @media (min-width: 750px) {
+    header{
   border-width: 10px;
   border-color: black;
 }
@@ -548,3 +548,4 @@ footer{
   text-align: center;
   padding: 40px;
 }
+  }
